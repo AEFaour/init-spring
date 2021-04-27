@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <bean id="compte1" class="com.aston.java.spring.domains.Compte"> <property 
+		name="numero" value="1" /> <property name="titulaire" value="Ahmed" /> <property 
+		name="solde" value="150" /> <property name="fermer" value="false" /> </bean> 
+		<bean id="compte2" class="com.aston.java.spring.domains.Compte"> <property 
+		name="numero" value="2" /> <property name="titulaire" value="Paterne" /> 
+		<property name="solde" value="1520" /> <property name="fermer" value="false" 
+		/> </bean> <bean id="compte3" class="com.aston.java.spring.domains.Compte"> 
+		<property name="numero" value="3" /> <property name="titulaire" value="Ségolène" 
+		/> <property name="solde" value="2150" /> <property name="fermer" value="false" 
+		/> </bean> -->
+
+	<bean id="compte1" class="com.aston.java.spring.domains.Compte">
+		<property name="numero" value="1"></property>
+		<property name="titulaire" value="Ahmed"></property>
+		<property name="solde" value="150"></property>
+		<property name="fermer" value="false"></property>
+	</bean>
+	<bean id="compte2" class="com.aston.java.spring.domains.Compte">
+		<property name="numero" value="2"></property>
+		<property value="Paterne" name="titulaire"></property>
+		<property name="solde" value="1520"></property>
+		<property name="fermer" value="false"></property>
+	</bean>
+	<bean id="compte3" class="com.aston.java.spring.domains.Compte">
+		<property name="numero" value="3"></property>
+		<property name="titulaire" value="Anas"></property>
+		<property name="solde" value="2500"></property>
+		<property name="fermer" value="false"></property>
+	</bean>
+	<bean id="compteRepository"
+		class="com.aston.java.spring.dao.impls.CompteRepository">
+		<property name="comptes">
+			<map>
+				<entry key="1" value-ref="compte1" />
+				<entry key="2" value-ref="compte2" />
+				<entry key="3" value-ref="compte3" />
+			</map>
+		</property>
+	</bean>
+
+	
+	
+	
+	<bean id="compteService"
+		class="com.aston.java.spring.dao.impls.CompteService">
+	<property name="compteRepository" ref="compteRepository" />
+	
+	</bean>
+	
+	
+	
+</beans>
+
+
+

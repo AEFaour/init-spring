@@ -1,0 +1,5 @@
+com\aston\java\spring\domains\Personne.class
+com\aston\java\spring\domains\Compte.class
+com\aston\java\spring\dao\ICompteRepository.class
+com\aston\java\spring\dao\ICompteService.class
+com\aston\java\spring\domains\TestIoc.class

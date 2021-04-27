@@ -1,0 +1,4 @@
+com\aston\java\spring\dao\impls\CompteService.class
+com\aston\java\spring\dao\impls\XmlDiSetter.class
+com\aston\java\spring\dao\impls\test\Test.class
+com\aston\java\spring\dao\impls\CompteRepository.class
