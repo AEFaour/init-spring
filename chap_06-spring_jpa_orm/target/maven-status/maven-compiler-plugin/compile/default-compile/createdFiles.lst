@@ -1,0 +1,8 @@
+com\aston\java\spring\orm\repositories\impl\EmployeRepository.class
+com\aston\java\spring\orm\services\IEmployeService.class
+com\aston\java\spring\orm\hbm\SpringHbmConfig.class
+com\aston\java\spring\orm\services\impl\EmployeService.class
+com\aston\java\spring\orm\AppConfig.class
+com\aston\java\spring\orm\repositories\IEmployeRepository.class
+com\aston\java\spring\orm\test\TestSpringHbm.class
+com\aston\java\spring\orm\domains\Employe.class

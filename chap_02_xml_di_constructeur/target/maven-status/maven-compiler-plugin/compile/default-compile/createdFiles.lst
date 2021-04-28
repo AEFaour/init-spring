@@ -1,2 +1,3 @@
-com\aston\java\spring\constructeur\dao\impls\CompteService.class
+com\aston\java\spring\constructeur\dao\impls\test\XmlConfigContructTest.class
 com\aston\java\spring\constructeur\dao\impls\CompteRepository.class
+com\aston\java\spring\constructeur\dao\impls\CompteService.class

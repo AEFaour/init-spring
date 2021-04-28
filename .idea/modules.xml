@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_Intro/01_Intro.iml" filepath="$PROJECT_DIR$/01_Intro/01_Intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap_01_xml_di_setter/chap_01_xml_di_setter.iml" filepath="$PROJECT_DIR$/chap_01_xml_di_setter/chap_01_xml_di_setter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap_02_xml_di_constructeur/chap_02_xml_di_constructeur.iml" filepath="$PROJECT_DIR$/chap_02_xml_di_constructeur/chap_02_xml_di_constructeur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap_03_xml_di_annotations/chap_03_xml_di_annotations.iml" filepath="$PROJECT_DIR$/chap_03_xml_di_annotations/chap_03_xml_di_annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap_04_java_config/chap_04_java_config.iml" filepath="$PROJECT_DIR$/chap_04_java_config/chap_04_java_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap_05_jpa_example/chap_05_jpa_example.iml" filepath="$PROJECT_DIR$/chap_05_jpa_example/chap_05_jpa_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap_05_jpa_sansspring/chap_05_jpa_sansspring.iml" filepath="$PROJECT_DIR$/chap_05_jpa_sansspring/chap_05_jpa_sansspring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap_06-spring_jpa_orm/chap_06-spring_jpa_orm.iml" filepath="$PROJECT_DIR$/chap_06-spring_jpa_orm/chap_06-spring_jpa_orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring.iml" filepath="$PROJECT_DIR$/spring.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01_Intro" />
+        <module name="chap_01_xml_di_setter" />
+        <module name="chap_03_xml_di_annotations" />
+        <module name="chap_05_jpa_sansspring" />
+        <module name="chap_06-spring_jpa_orm" />
+        <module name="chap_02_xml_di_constructeur" />
+        <module name="chap_04_java_config" />
+        <module name="chap_05_jpa_example" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01_Intro" target="15" />
+      <module name="chap_01_xml_di_setter" target="15" />
+      <module name="chap_02_xml_di_constructeur" target="15" />
+      <module name="chap_03_xml_di_annotations" target="15" />
+      <module name="chap_04_java_config" target="15" />
+      <module name="chap_05_jpa_example" target="15" />
+      <module name="chap_05_jpa_sansspring" target="15" />
+      <module name="chap_06-spring_jpa_orm" target="15" />
+      <module name="spring" target="15" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

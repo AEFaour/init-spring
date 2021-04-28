@@ -13,6 +13,10 @@
 		<module>chap_01_xml_di_setter</module>
 		<module>chap_02_xml_di_constructeur</module>
 		<module>chap_03_xml_di_annotations</module>
+		<module>chap_04_java_config</module>
+		<module>chap_05_jpa_sansspring</module>
+		<module>chap_05_jpa_example</module>
+		<module>chap_06-spring_jpa_orm</module>
 	</modules>
 
 	<properties>

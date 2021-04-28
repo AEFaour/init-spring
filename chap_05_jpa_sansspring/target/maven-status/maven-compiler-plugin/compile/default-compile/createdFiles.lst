@@ -1,0 +1,7 @@
+com\aston\java\spring\entites\AbstractEntity.class
+com\aston\java\spring\entites\Artiste.class
+com\aston\java\spring\utils\JpaUtils.class
+com\aston\java\spring\entites\Adresse.class
+com\aston\java\spring\entites\Album.class
+com\aston\java\spring\entites\Employe.class
+com\aston\java\spring\test\TestJpa.class

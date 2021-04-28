@@ -1,0 +1,4 @@
+com\aston\java\spring\dao\javaconfig\test\TestJavaConfig.class
+com\aston\java\spring\dao\AppConfig.class
+com\aston\java\spring\dao\javaconfig\CompteService.class
+com\aston\java\spring\dao\javaconfig\CompteRepository.class

@@ -3,6 +3,10 @@ package com.aston.java.spring.domains;
 import java.time.LocalDate;
 
 public class Compte {
+	
+
+
+
 	private Integer numero;
 	private String titulaire;
 	private Double solde;
@@ -70,6 +74,13 @@ public class Compte {
 
 	public void setFermer(Boolean fermer) {
 		this.fermer = fermer;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Compte [numero=" + numero + ", titulaire=" + titulaire + ", solde=" + solde + "]";
 	}
 
 	
